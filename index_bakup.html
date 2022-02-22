@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- p5 core library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.3.1/lib/p5.js"></script>
+
+    <!-- A-Frame core library -->
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+
+    <!-- AFrameP5 library -->
+    <script src="https://craignyu.github.io/aframep5/libraries/aframep5-v2.1.js"></script>
+
+    <!-- Your p5 Sketch -->
+    <script src="sketch.js"></script>
+
+    <!-- custom styles -->
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+
+    <a-scene id="VRScene">
+    
+
+      <a-assets id="VRAssets">
+      
+        <a-asset
+          id="ship"
+          src="https://cdn.glitch.me/3ad972ad-6ef8-429f-95cd-105a84375d77/spaceship.glb?v=1640127923724"
+        ></a-asset>
+        
+      </a-assets>
+
+    </a-scene>
+  </body>
+</html>
+ 
